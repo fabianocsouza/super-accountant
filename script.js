@@ -32,12 +32,11 @@ function account(value){
     if(initialize <= final){
         for (let index = initialize; index <= final; index+=step)
             result.append(index, ' 👉🏼 ');
-        result.append(' 🏁');
         
     }else {
         for (let index = initialize; index >= final ; index-=step)
             result.append(index, ' 👉🏼 ');
-        result.append(' 🏁');
     }
+    result.append(' 🏁');
 
 }
